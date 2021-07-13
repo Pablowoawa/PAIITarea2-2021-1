@@ -1,0 +1,27 @@
+La documentación del código está dentro del código.
+Para la parte de la visualización del árbol de búsqueda no se recomienda usar instancias tan grandes, ni tiempos límites tan grandes.
+Se demora en imprimir el árbol de búsqueda, no es un loop infinito. 
+Se incluye la instancia burma7.tsp, un problema fácil de 7 ciudades, créditos al compañero Pablo Reyes, autor de la instancia.
+Se incluye también la instancia fri26.tsp y br17.atsp, sin embargo se puede probar con cualquier otra instancia .tsp
+
+El árbol que se imprime se lee de izquierda a derecha, por nivel.
+por ejemplo un arbol de 4 ciudades [1,2,3,4]:
+1
+   |__2
+      |__3
+         |__4
+      |__4
+         |__3
+   |__3
+      |__2
+         |__4
+      |__4
+         |__2
+   |__4
+      |__2
+         |__3
+      |__3
+         |__2
+Donde 1 tiene de hijos a 2,3,4 --> 2 tiene de hijos a 3,4 --> 3 tiene de hijo a 4 ---> 4 tiene de hijo a 3 y esa misma lógica para las otras ramas.
+
+Saludos.
